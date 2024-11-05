@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selection Sort</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">Selection Sort</h1>
+
+      <div class="input-group mb-3">
+        <input type="text" id="inputArray" class="form-control" placeholder="Masukkan angka dipisahkan dengan koma (contoh: 5,3,8,6)" />
+        <div class="input-group-append">
+          <button class="btn btn-primary" onclick="mulaiPengurutan()">Urutkan</button>
+        </div>
+      </div>
+
+      <div id="stepsContainer" class="mt-4">
+        <h3 class="text-center">Langkah-langkah Pengurutan</h3>
+      </div>
+
+      <div id="finalResult" class="mt-4 text-center"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
